@@ -1,0 +1,10 @@
+.category__btn{
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    &.active {
+         > h2 {
+            color: rgb(89, 158, 238);
+         }
+    }
+}

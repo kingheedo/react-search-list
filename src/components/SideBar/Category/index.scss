@@ -1,0 +1,17 @@
+.categories{
+    margin: 20px 0;
+    .title{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .btn-container{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        > button{
+            width: 100%;
+            text-align: left;
+        }
+    }
+}
